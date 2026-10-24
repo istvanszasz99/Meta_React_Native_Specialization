@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "little-lemon-app",
+    "owner": "marventures",
+    "slug": "little-lemon-app",
+    "description": "react native app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Logo.png"
+    }
+  }
+}
